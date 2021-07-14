@@ -1,0 +1,11 @@
+Complexity|MSE|Equation
+1|1064.938|BR
+3|669.0702|(RPM / NOB)
+5|597.9039|(RPM / pow(BR, Dc))
+7|161.60527|(((RPM / Dc) * WOB) / UCS)
+9|148.59352|((((RPM / Dc) * WOB) / UCS) - NOB)
+11|95.76951|((((RPM / Dc) * WOB) / (UCS - WOB)) - NOB)
+13|65.335846|(((((RPM + 21.14382) / Dc) * WOB) / (UCS - WOB)) - NOC)
+15|43.864544|((((((RPM + 22.46982) / Dc) * WOB) / (UCS - WOB)) - NOB) - NOC)
+17|37.821293|(pow(((((RPM + 98.457596) / Dc) * WOB) / (UCS - WOB)) - NOC, 1.1348255) * 0.31298584)
+19|27.875923|(pow((((((RPM + 98.457596) / Dc) * WOB) / (UCS - WOB)) - NOB) - NOC, 1.1348255) * 0.31298584)

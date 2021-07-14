@@ -1,0 +1,8 @@
+Complexity|MSE|Equation
+1|767.7815|27.618858
+3|669.0702|(RPM / NOB)
+5|629.0945|(RPM / (NOB + -0.8178725))
+7|587.1626|((RPM * Db) / (BR - Db))
+9|157.83093|(((RPM / Dc) * (WOB / UCS)) + -0.66823363)
+17|50.741753|(((((RPM + NOB) / Dc) + NOC) * (WOB / (UCS - WOB))) + (NOC * -1.2105513))
+19|45.370205|((((((RPM + NOB) + NOB) / Dc) + NOC) * (WOB / (UCS - WOB))) + (NOC * -1.2105521))
