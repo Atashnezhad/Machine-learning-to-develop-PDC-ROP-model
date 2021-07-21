@@ -65,20 +65,18 @@ The following equation was found using symbolic regression algorithm.
 ```
 ROP = (pow((((((RPM + 98.457596) / Dc) * WOB) / (UCS - WOB)) - NOB) - NOC, 1.1348255) * 0.31298584)
 ```
-The following figures compare the data versus above ROP model (found by AI).
+The following figure compares the data versus above ROP model (found by AI).
 
-<p align="left">
-  <img  width="1400" src="Figures/Comparison between PDC ROP Model found by AI and ROP DATA.png" >
-</p>
 
-<p align="left">
+<p align="center">
   <img  width="450" src="Figures/ModelvsData.png" >
 </p>
 
 
+The interaction between independant paramters were pictures at the following figure.
+
 
 <p align="left">
-  <img  width="450" src="Figures/Sensitivity_analysis_1.png" >
   <img  width="450" src="Figures/Sensitivity_analysis_2.png" >
 </p>
 
