@@ -72,17 +72,6 @@ The following figure compares the data versus above ROP model (found by AI).
   <img  width="450" src="Figures/ModelvsData.png" >
 </p>
 
-
-The interaction between independant paramters were pictures at the following figure.
-
-
-<p align="left">
-  <img  width="450" src="Figures/Sensitivity_analysis_2.png" >
-</p>
-
-
-
-
 ### Suggestions
 
 * The Pysr clearly ignores the dimensionality of mathematical equations. The PySR guides the searching processes toward those equations which result in higher accuracy.
@@ -92,4 +81,11 @@ The interaction between independant paramters were pictures at the following fig
 * The results can be affected by the available number of data points too.
 * Generally, other than the effect of independent parameters in dependant, One should consider the interaction effects. The interaction between independent parameters effectively affects how one independent parameter influences the dependant parameter. 
 * For a problem with five independent parameters, the interaction between independent parameters can happen in two, three, and four fashion ways. Therefore, from a statistical point of view, one should consider more than five independent parameters for modeling purposes. For a problem with five independent parameters, there are 206 interactions and for a 10D problem, there are more than 6M interactions.
+
+The interaction between independant paramters for this study is seen at the following figure.
+
+
+<p align="left">
+  <img  width="450" src="Figures/Sensitivity_analysis_2.png" >
+</p>
 
