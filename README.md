@@ -87,9 +87,9 @@ The following figures compare the data versus above ROP model (found by AI).
 
 ### Suggestions
 
-* The pysr clearly ignores the dimensionality of mathematical equation. The PySR guids the searching processes toward those equations which result in higher accuracy.
-* It would be benefacial if the ML algorithm (symbolic regression package) comes with new feathers to consider the dimensionality in the process of evulution.
-* One method that can be used for dimensionality consideration in PySR is by using customized loss function. In such case, it is suggested to develope a function that can measure the normalized beahavior of seperate input parameters into the dependant paramter. The influence of independant parameters on dependant paramters can be study seperatly using lab data or from liturature. For instance, there is almost an agreement that the WOB affects the ROP with power bigger than 1. Note that this is true before achieving the flunder point. Once the castomzied objective function was prepared, it is expected that the PySR incorporate more physic into developing equations.
-* The sensitivity analysis package in this study was used. As it is seen in above gragh, the PySR found that the WOB, RPM,and UCS have bigger effect on ROP comare to Dc and NOC.
-* The results can be affected by the availabe number of data points too.
+* The Pysr clearly ignores the dimensionality of mathematical equations. The PySR guides the searching processes toward those equations which result in higher accuracy.
+* It would be beneficial if the ML algorithm (symbolic regression package) comes with new feathers to consider the dimensionality in the process of evolution.
+* One method that can be used for dimensionality consideration in PySR is by using a customized loss function. In such a case, it is suggested to develop a function that can measure the normalized behavior of separate input parameters into the dependant parameter. The influence of independent parameters on dependant parameters can be studied separately using lab data or from literature. For instance, there is almost an agreement that the WOB affects the ROP with power bigger than 1. Note that this is true before achieving the flounder point. Once the customized objective function was prepared, it is expected that the PySR incorporate more physic into developing equations.
+* The sensitivity analysis package in this study was used. As it is seen in the above graph, the PySR found that the WOB, RPM, and UCS have a bigger effect on ROP compare to Dc and NOC.
+* The results can be affected by the available number of data points too.
 
