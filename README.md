@@ -84,7 +84,7 @@ The following figure compares the data versus above ROP model (found by AI).
 * Beside the effect of independent parameters in dependant, One should consider the interaction effects. The interaction between independent parameters effectively affects how one independent parameter influences the dependant parameter. 
 * For a problem with five independent parameters, the interaction between independent parameters can happen in the second order, third order, and fourth order fashion ways. Therefore, from a statistical point of view, one should consider more than five independent parameters for modeling purposes. For a problem with five independent parameters, there are 206 interactions and for a 10D problem, there are more than 6M interactions (please check out the interaction calc Notebook in the directory).
 
-The second order interaction between independant paramters for this study is seen at the following figure.
+The second order interaction between independant paramters for this study is seen at the following figure. Statistics Analysis visualization was done using SALib library.
 
 
 <p align="left">
