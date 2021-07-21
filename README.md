@@ -1,4 +1,4 @@
-# Developing PDC ROP model using Artificial Intelligence
+# Developing PDC ROP model using symbolic regression algorithm
 
 A PDC ROP model was developed using symbolic regression algorithm. 
 
