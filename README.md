@@ -8,6 +8,8 @@ A PDC ROP model was developed using symbolic regression algorithm.
 
 ### Symbolic Regression Algorithm
 
+The symbolic regression algorithm uses the genetic algorithm concept to develop mathematical equations for provided data points.
+The algorithm begins a pool of mathematical equations (Hall of fame) in the shape of the tree. The fitness of each tree is calculated and it is used for developing the next generation of trees applying genetic mutation and crossover operators. 
 
 
 
