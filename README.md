@@ -85,7 +85,7 @@ The following figure compares the data versus above ROP model (found by AI).
 * For a problem with five independent parameters, the interaction between independent parameters can happen in the second order, third order, and fourth order fashion ways. Therefore, from a statistical point of view, one should consider more than five independent parameters for modeling purposes. For a problem with five independent parameters, there are 206 interactions and for a 10D problem, there are more than 6M interactions (please check out the interaction calc Notebook in the directory).
 
 The second order interaction between independant paramters for this study is seen at the following figure. Statistics Analysis visualization was done using SALib library.
-
+The below figure shows the contribution of each input to output parameters along with second-order as indices width.
 
 <p align="left">
   <img  width="450" src="Figures/Sensitivity_analysis_2.png" >
