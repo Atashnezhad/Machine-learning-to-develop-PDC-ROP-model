@@ -38,7 +38,7 @@ PDC bits manufactured by National Oil Varco - NOV (left) and Ulterra (right) are
 </p>
 
 ### Data
-The four-row of data used in this study are seen in the following table.
+The four-rows of data used in this study are seen in the following table.
 
 ###### Table
 ```
